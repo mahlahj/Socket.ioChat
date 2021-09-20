@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chat Bestia</title>
+        <link href="/styles.css" rel="stylesheet"/>
+    </head>
+    <!-- FORZOSO cdnjs para poderlo correr -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.2.0/socket.io.js" integrity="sha512-WL6WGKMPBiM9PnHRYIn5YEtq0Z8XP4fkVb4qy7PP4vhmYQErJ/dySyXuFIMDf1eEYCXCrQrMJfkNwKc9gsjTjA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="../index.js"></script>
+    <body>
+        <div id="Bestia-chat">
+            <div id="chat-window">
+                <div id="output"></div>
+                <div id="feedback"></div>
+            </div>
+            <input id="handle" type="text" placeholder="Nombre"/>
+            <input id="message" type="text" placeholder="Mensaje"/>
+            <button id="send">Enviar</button>
+        </div>
+        <!-- Script al final para poder acceder a él -->>
+        <script src="/chat.js"></script>
+    </body>
+</html>
